@@ -51,10 +51,8 @@
 
     <%
                     String id = request.getParameter("id");
-                    TKMonAnTheoDoanhThu600 monan = (TKMonAnTheoDoanhThu600) session.getAttribute("monan_" + id);
-                    
-                    String startDate = monan.getStartDate();
-                    String endDate = monan.getEndDate();
+    				String startDate = request.getParameter("startDate");
+    				String endDate = request.getParameter("endDate");
                     
                     int tongsl=0;
                     float tongtien=0;

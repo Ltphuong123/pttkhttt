@@ -124,7 +124,7 @@
         	<td><%= ++stt %></td>
         	<td><%= monan.getId() %></td>
             <td>
-	            <a href="GDLichSuDatMon.jsp?id=<%= monan.getId() %>">
+	            <a href="GDLichSuDatMon.jsp?id=<%= monan.getId() %>&startDate=<%= startDate %>&endDate=<%= endDate %>">
 	            	<%= monan.getTen() %>
 	            </a>
             </td>
